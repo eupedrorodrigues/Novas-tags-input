@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novas tags input</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <form>
+        <!--Novas tags de input HTML5-->
+        <!--Required: serve pra dizer que o campo é obrigatório-->
+        <!--autofocus:  serve para dar foco no campo que tiver o mesmo-->
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" required autofocus >
+        <br><br>
+
+        <!--EMAIL-->
+        <label for="email">Email</label>
+        <input type="email" id="email" required autofocus>
+        <br><br>
+
+        <!--Número-->
+        <label for="numero">Número</label>
+        <input type="number" id="numero">
+        <br><br>
+
+        <!--Url-->
+        <label for="url">Url</label>
+        <input type="url" id="url" placeholder="ex: http://www....">
+        <br><br>
+
+        <!--Pesquisa-->
+        <label for="pesquisa">Pesquisa</label>
+        <input type="search" id="pesquisa" placeholder="Digite algo a pesquisar">
+        <br><br>
+
+        <!--Range-->
+        <label for="range">Range</label>
+        <input type="range" id="range" min="1" max="100" value="50">
+        <br><br>
+
+        <!--Data-->
+        <label for="data">Data</label>
+        <input type="date" id="data">
+        <br><br>
+
+        <!--Cor-->
+        <label for="cor">Cor</label>
+        <input type="color" id="cor">
+        <br><br>
+        
+        <input type="submit" value="Enviar">
+
+    </form>
+    
+</body>
+</html>
